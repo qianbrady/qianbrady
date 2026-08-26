@@ -1,28 +1,53 @@
-### Hi, I'm Brady (qianbrady) 👋
+# qianbrady
 
-I build small, honest, **fully offline developer tools** — every one is a single repo you can read in an afternoon, with deterministic output and zero telemetry.
+![Repos](https://img.shields.io/badge/public%20repos-26-blue)
+![Focus](https://img.shields.io/badge/focus-offline%20dev%20tools-green)
 
-#### 🌐 Free web tools (no signup, nothing leaves your browser)
+I build small, honest, fully offline developer tools - deterministic output, zero telemetry.
+
+## Web tools
 
 | Tool | What it does | Try it |
 |---|---|---|
-| **ReadmeScore** | Paste a README → 0–100 newcomer-friendliness score + concrete fix per check | [readmescore](https://qianbrady.github.io/readmescore/) |
-| **PromptDriftCheck** | Changed your system prompt? Score how much outputs actually moved | [promptdriftcheck](https://qianbrady.github.io/promptdriftcheck/) |
-| **WeeklyChangelog** | `git log` → publish-ready weekly changelog in Markdown | [weeklychangelog](https://qianbrady.github.io/weeklychangelog/) |
+| **ReadmeScore** | Paste a README, get a 0-100 newcomer score + fix per check | [readmescore](https://qianbrady.github.io/readmescore/) |
+| **PromptDriftCheck** | Did your new system prompt change the answers? Score the drift | [promptdriftcheck](https://qianbrady.github.io/promptdriftcheck/) |
+| **WeeklyChangelog** | `git log` in, publish-ready weekly changelog out | [weeklychangelog](https://qianbrady.github.io/weeklychangelog/) |
 
 Each web tool is a faithful, test-verified port of its CLI sibling.
 
-#### 🧰 CLI tools (Python/Node, CI-tested)
+## CLI tools
 
-- **Git & repo intelligence** — [commit-chronicle](https://github.com/qianbrady/commit-chronicle) · [gitscape](https://github.com/qianbrady/gitscape) · [gitflick](https://github.com/qianbrady/gitflick) · [repopitch](https://github.com/qianbrady/repopitch) · [repo-vital](https://github.com/qianbrady/repo-vital) · [maintainer-pulse](https://github.com/qianbrady/maintainer-pulse)
-- **Code & review** — [stylecodex](https://github.com/qianbrady/stylecodex) · [undertest](https://github.com/qianbrady/undertest) · [blamewhen](https://github.com/qianbrady/blamewhen) (npm lockfile vulnerability attribution) · [callquake](https://github.com/qianbrady/callquake) (AST blast-radius radar) · [dotenvelope](https://github.com/qianbrady/dotenvelope) (env auditor) · [jsonlcensus](https://github.com/qianbrady/jsonlcensus) (GB-scale JSONL schema census)
-- **Terminal & sessions** — [termemory](https://github.com/qianbrady/termemory) · [termtide](https://github.com/qianbrady/termtide) · [termquill](https://github.com/qianbrady/termquill) · [timesink](https://github.com/qianbrady/timesink) · [gitgrave](https://github.com/qianbrady/gitgrave) (a cemetery for deleted code)
-- **Prompts & LLM ops** — [promptwake](https://github.com/qianbrady/promptwake) · [promgit](https://github.com/qianbrady/promgit) · [tokenlattice](https://github.com/qianbrady/tokenlattice) (personal LLM cost ledger)
-- **Docs & quality** — [readme-gauntlet](https://github.com/qianbrady/readme-gauntlet) · [devstorymatrix](https://github.com/qianbrady/devstorymatrix)
+- **Git & repo intelligence** - [commit-chronicle](https://github.com/qianbrady/commit-chronicle) · [gitscape](https://github.com/qianbrady/gitscape) · [gitflick](https://github.com/qianbrady/gitflick) · [repopitch](https://github.com/qianbrady/repopitch) · [repo-vital](https://github.com/qianbrady/repo-vital) · [maintainer-pulse](https://github.com/qianbrady/maintainer-pulse)
+- **Code & review** - [stylecodex](https://github.com/qianbrady/stylecodex) · [undertest](https://github.com/qianbrady/undertest) · [blamewhen](https://github.com/qianbrady/blamewhen) · [callquake](https://github.com/qianbrady/callquake) · [dotenvelope](https://github.com/qianbrady/dotenvelope) · [jsonlcensus](https://github.com/qianbrady/jsonlcensus)
+- **Terminal & sessions** - [termemory](https://github.com/qianbrady/termemory) · [termtide](https://github.com/qianbrady/termtide) · [termquill](https://github.com/qianbrady/termquill) · [timesink](https://github.com/qianbrady/timesink) · [gitgrave](https://github.com/qianbrady/gitgrave)
+- **Prompts & LLM ops** - [promptwake](https://github.com/qianbrady/promptwake) · [promgit](https://github.com/qianbrady/promgit) · [tokenlattice](https://github.com/qianbrady/tokenlattice)
+- **Docs & quality** - [readme-gauntlet](https://github.com/qianbrady/readme-gauntlet) (scores every README on this page) · [devstorymatrix](https://github.com/qianbrady/devstorymatrix)
 
-#### 📦 Digital products
+## Install
 
-- **syntheticevalkit** — synthetic eval datasets for customer-support LLMs (cs / saas / edu variants) with a reproducible scoring harness
-- **promptops-pack** — 37 battle-tested prompt templates across 6 roles
+```bash
+git clone https://github.com/qianbrady/<repo>
+cd <repo>
+pip install -e .
+```
 
-All repos: green Actions CI · MIT license · no dependency directories committed.
+## Quickstart
+
+1. Pick any repo from the lists above
+2. Clone and install (two commands)
+3. Run `<tool> --help` - every CLI ships a help screen
+
+## Usage
+
+```bash
+$ readme-gauntlet README.md
+总分: 100/100  等级: A
+```
+
+## Contributing
+
+Issues and PRs welcome in any repo - zero-dependency codebases, small surface areas.
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT) © 2025 Brady
