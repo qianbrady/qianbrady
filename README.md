@@ -1,6 +1,6 @@
 # qianbrady
 
-![Repos](https://img.shields.io/badge/public%20repos-28-blue)
+![Repos](https://img.shields.io/badge/public%20repos-27-blue)
 ![Focus](https://img.shields.io/badge/focus-offline%20dev%20tools-green)
 
 I build small, honest, fully offline developer tools - deterministic output, zero telemetry.
