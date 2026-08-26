@@ -1,6 +1,6 @@
 # qianbrady
 
-![Repos](https://img.shields.io/badge/public%20repos-27-blue)
+![Repos](https://img.shields.io/badge/public%20repos-28-blue)
 ![Focus](https://img.shields.io/badge/focus-offline%20dev%20tools-green)
 
 I build small, honest, fully offline developer tools - deterministic output, zero telemetry.
@@ -13,6 +13,7 @@ I build small, honest, fully offline developer tools - deterministic output, zer
 | **PromptDriftCheck** | Did your new system prompt change the answers? Score the drift | [promptdriftcheck](https://qianbrady.github.io/promptdriftcheck/) |
 | **WeeklyChangelog** | `git log` in, publish-ready weekly changelog out | [weeklychangelog](https://qianbrady.github.io/weeklychangelog/) |
 | **LLMCostBoard** | Paste LLM usage JSONL → per-model/per-day API costs + budget alerts | [llmcostboard](https://qianbrady.github.io/llmcostboard/) |
+| **TermTideWeb** | Paste numbers → gradient SVG charts (sparkline/heatmap/bars) | [termtideweb](https://qianbrady.github.io/termtideweb/) |
 
 Each web tool is a faithful, test-verified port of its CLI sibling.
 
