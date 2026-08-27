@@ -1,6 +1,6 @@
 # qianbrady
 
-![Repos](https://img.shields.io/badge/public%20repos-30-blue)
+![Repos](https://img.shields.io/badge/public%20repos-31-blue)
 ![Focus](https://img.shields.io/badge/focus-offline%20dev%20tools-green)
 
 I build small, honest, fully offline developer tools - deterministic output, zero telemetry.
@@ -16,6 +16,7 @@ I build small, honest, fully offline developer tools - deterministic output, zer
 | **TermTideWeb** | Paste numbers → gradient SVG charts (sparkline/heatmap/bars) | [termtideweb](https://qianbrady.github.io/termtideweb/) |
 | **DotEnvGuardian** | .env ↔ .env.example diff + config health audit | [dotenvguardian](https://qianbrady.github.io/dotenvguardian/) |
 | **TokenTimeline** | Per-conversation token usage timeline with cache hit/miss split + date-range filter | [tokentimeline](https://qianbrady.github.io/tokentimeline/) |
+| **RMBUpper** | 人民币大写批量转换 — paste invoice text, ticket-grade uppercase for every amount | [rmbupper](https://qianbrady.github.io/rmbupper/) |
 
 Each web tool is a faithful, test-verified port of its CLI sibling.
 
