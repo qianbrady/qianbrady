@@ -1,6 +1,6 @@
 # qianbrady
 
-![Repos](https://img.shields.io/badge/public%20repos-29-blue)
+![Repos](https://img.shields.io/badge/public%20repos-30-blue)
 ![Focus](https://img.shields.io/badge/focus-offline%20dev%20tools-green)
 
 I build small, honest, fully offline developer tools - deterministic output, zero telemetry.
@@ -15,6 +15,7 @@ I build small, honest, fully offline developer tools - deterministic output, zer
 | **LLMCostBoard** | Paste LLM usage JSONL → per-model/per-day API costs + budget alerts | [llmcostboard](https://qianbrady.github.io/llmcostboard/) |
 | **TermTideWeb** | Paste numbers → gradient SVG charts (sparkline/heatmap/bars) | [termtideweb](https://qianbrady.github.io/termtideweb/) |
 | **DotEnvGuardian** | .env ↔ .env.example diff + config health audit | [dotenvguardian](https://qianbrady.github.io/dotenvguardian/) |
+| **TokenTimeline** | Per-conversation token usage timeline with cache hit/miss split + date-range filter | [tokentimeline](https://qianbrady.github.io/tokentimeline/) |
 
 Each web tool is a faithful, test-verified port of its CLI sibling.
 
