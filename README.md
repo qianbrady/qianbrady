@@ -1,6 +1,6 @@
 # qianbrady
 
-![Repos](https://img.shields.io/badge/public%20repos-31-blue)
+![Repos](https://img.shields.io/badge/public%20repos-32-blue)
 ![Focus](https://img.shields.io/badge/focus-offline%20dev%20tools-green)
 
 I build small, honest, fully offline developer tools - deterministic output, zero telemetry.
@@ -17,6 +17,7 @@ I build small, honest, fully offline developer tools - deterministic output, zer
 | **DotEnvGuardian** | .env ↔ .env.example diff + config health audit | [dotenvguardian](https://qianbrady.github.io/dotenvguardian/) |
 | **TokenTimeline** | Per-conversation token usage timeline with cache hit/miss split + date-range filter | [tokentimeline](https://qianbrady.github.io/tokentimeline/) |
 | **RMBUpper** | 人民币大写批量转换 — paste invoice text, ticket-grade uppercase for every amount | [rmbupper](https://qianbrady.github.io/rmbupper/) |
+| **CronExpane** | cron 表达式解释器 — plain-language meaning, pitfalls, next runs (ZH+EN) | [cronexpane](https://qianbrady.github.io/cronexpane/) |
 
 Each web tool is a faithful, test-verified port of its CLI sibling.
 
